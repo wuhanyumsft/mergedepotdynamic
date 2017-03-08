@@ -1,4 +1,5 @@
 {
+  "build_entry_point": "CopyToPublish.ps1",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
@@ -14,6 +15,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
+	  "build_entry_point": "CopyToPublish.ps1",
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
