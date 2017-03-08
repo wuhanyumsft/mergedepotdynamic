@@ -8,10 +8,10 @@
 		"source_relative_path": "index",
 		"output": {
 			".raw.page.json": {
-				"relative_path": "mergedepotdynamic/index.raw.page.json"
+				"relative_path": "index.raw.page.json"
 			},
 			".mta.json": {
-				"relative_path": "mergedepotdynamic/index.mta.json"
+				"relative_path": "index.mta.json"
 			}
 		},
 		"is_incremental": false,
@@ -24,7 +24,7 @@
 		"source_relative_path": "toc.json",
 		"output": {
 			"resource": {
-				"relative_path": "mergedepotdynamic/toc1.json"
+				"relative_path": "toc1.json"
 			}
 		},
 		"is_incremental": false,
