@@ -19,9 +19,9 @@
 		"skip_normalization": true
 	},
 	{
-		"asset_id": "toc.json",
+		"asset_id": "toc1.json",
 		"type": "Resource",
-		"source_relative_path": "toc.json",
+		"source_relative_path": "toc1.json",
 		"output": {
 			"resource": {
 				"relative_path": "toc1.json"
