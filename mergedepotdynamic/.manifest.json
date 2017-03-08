@@ -1,1 +1,83 @@
-{"homepages":[],"source_base_path":"mergedepotdynamic","xrefmap":"xrefmap.yml","files":[{"type":"Conceptual","source_relative_path":"index","output":{".raw.page.json":{"relative_path":"mergedepotdynamic/index.raw.page.json"},".mta.json":{"relative_path":"mergedepotdynamic/index.mta.json"}},"is_incremental":false,"version":null,"skip_normalization":true},{"type":"Resource","source_relative_path":"toc.json","output":{"resource":{"relative_path":"mergedepotdynamic/toc1.json"}},"is_incremental":false,"version":null,"skip_normalization":true}],"incremental_info":[{"status":{"can_incremental":false,"details":"Cannot build incrementally because last build info is missing.","incrementalPhase":"build"},"processors":{"ResourceDocumentProcessor":{"can_incremental":false,"details":"Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.","incrementalPhase":"build"},"RestApiDocumentProcessor":{"can_incremental":false,"details":"Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.","incrementalPhase":"build"},"ManagedReferenceDocumentProcessor":{"can_incremental":false,"details":"Processor ManagedReferenceDocumentProcessor cannot suppport incremental build because the following steps don't implement ISupportIncrementalBuildStep interface: ApplyDevLangs,ApplyF1Keywords,ApplyApiScan,SetManagedReferenceDocumentGitContributorInformation,SetManagedReferenceDocumentContentGitUrl.","incrementalPhase":"build"},"TocDocumentProcessor":{"can_incremental":false,"details":"Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.","incrementalPhase":"build"},"ConceptualDocumentProcessor":{"can_incremental":false,"incrementalPhase":"build"}}},{"status":{"can_incremental":false,"details":"Cannot support incremental post processing, the reason is: it's disabled.","incrementalPhase":"postProcessing"},"processors":{}}],"version_info":{},"publish_only_metadata":{"publish_version":"{\"opbuild.templates.docs\":\"1.29.0-alpha-019-g13ce7f5\",\"commit_id\":\"f7187172636eac644bb9b335f89f1c7a80eeb9ba\",\"branch\":\"master\",\"opbuild.scripts\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.htmltopdftool\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.gitcontributorinformationresolver\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild_service\":\"1.29.11.0\",\"docfx.console\":\"2.14.0-alpha-1280-g96afe40\",\"opbuild.resolvedependencyconsole\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.schemavalidationconsole\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.redirectionresolver\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.templates.intellisense\":\"1.29.0-alpha-019-g13ce7f5\",\"dependencies\":[{\"branch\":\"master\",\"path\":\"_themes\",\"url\":\"https://github.com/Microsoft/templates.docs.msft\",\"commit_id\":\"7d3ef1a51554bb393cfbe59160c498316c9c2dc3\",\"opbuild.templates.common\":\"1.28.2\"}]}"}}
+{
+	"homepages": [],
+	"source_base_path": "mergedepotdynamic",
+	"xrefmap": "xrefmap.yml",
+	"files": [{
+		"asset_id": "index",
+		"type": "Conceptual",
+		"source_relative_path": "index",
+		"output": {
+			".raw.page.json": {
+				"relative_path": "mergedepotdynamic/index.raw.page.json"
+			},
+			".mta.json": {
+				"relative_path": "mergedepotdynamic/index.mta.json"
+			}
+		},
+		"is_incremental": false,
+		"version": null,
+		"skip_normalization": true
+	},
+	{
+		"asset_id": "toc.json",
+		"type": "Resource",
+		"source_relative_path": "toc.json",
+		"output": {
+			"resource": {
+				"relative_path": "mergedepotdynamic/toc1.json"
+			}
+		},
+		"is_incremental": false,
+		"version": null,
+		"skip_normalization": true
+	}],
+	"incremental_info": [{
+		"status": {
+			"can_incremental": false,
+			"details": "Cannot build incrementally because last build info is missing.",
+			"incrementalPhase": "build"
+		},
+		"processors": {
+			"ResourceDocumentProcessor": {
+				"can_incremental": false,
+				"details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+				"incrementalPhase": "build"
+			},
+			"RestApiDocumentProcessor": {
+				"can_incremental": false,
+				"details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+				"incrementalPhase": "build"
+			},
+			"ManagedReferenceDocumentProcessor": {
+				"can_incremental": false,
+				"details": "Processor ManagedReferenceDocumentProcessor cannot suppport incremental build because the following steps don't implement ISupportIncrementalBuildStep interface: ApplyDevLangs,ApplyF1Keywords,ApplyApiScan,SetManagedReferenceDocumentGitContributorInformation,SetManagedReferenceDocumentContentGitUrl.",
+				"incrementalPhase": "build"
+			},
+			"TocDocumentProcessor": {
+				"can_incremental": false,
+				"details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+				"incrementalPhase": "build"
+			},
+			"ConceptualDocumentProcessor": {
+				"can_incremental": false,
+				"incrementalPhase": "build"
+			}
+		}
+	},
+	{
+		"status": {
+			"can_incremental": false,
+			"details": "Cannot support incremental post processing, the reason is: it's disabled.",
+			"incrementalPhase": "postProcessing"
+		},
+		"processors": {
+			
+		}
+	}],
+	"version_info": {
+		
+	},
+	"publish_only_metadata": {
+		"publish_version": "{\"opbuild.templates.docs\":\"1.29.0-alpha-019-g13ce7f5\",\"commit_id\":\"f7187172636eac644bb9b335f89f1c7a80eeb9ba\",\"branch\":\"master\",\"opbuild.scripts\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.htmltopdftool\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.gitcontributorinformationresolver\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild_service\":\"1.29.11.0\",\"docfx.console\":\"2.14.0-alpha-1280-g96afe40\",\"opbuild.resolvedependencyconsole\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.schemavalidationconsole\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.redirectionresolver\":\"1.29.0-alpha-019-g13ce7f5\",\"opbuild.templates.intellisense\":\"1.29.0-alpha-019-g13ce7f5\",\"dependencies\":[{\"branch\":\"master\",\"path\":\"_themes\",\"url\":\"https://github.com/Microsoft/templates.docs.msft\",\"commit_id\":\"7d3ef1a51554bb393cfbe59160c498316c9c2dc3\",\"opbuild.templates.common\":\"1.28.2\"}]}"
+	}
+}
