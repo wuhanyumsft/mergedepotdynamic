@@ -1,1 +1,25 @@
-{"title":"Welcome to siwdynamic1! | Microsoft Docs","search.ms_sitename":"Docs","search.ms_docsetname":"siwdynamic1","version":0,"locale":"en-us","site_name":"Docs","search.ms_product":"MSDN","depot_name":"MSDN.siwdynamic1","author":"wuhanyumsft","updated_at":"2017-03-08 02:47 AM","gitcommit":"https://github.com/wuhanyumsft/siwdynamic1/blob/9c45ebd7912ddb65d9007070288324431532b1bd/siwdynamic1/index.md","original_content_git_url":"https://github.com/wuhanyumsft/siwdynamic1/blob/master/siwdynamic1/index.md","open_to_public_contributors":true,"content_git_url":"https://github.com/wuhanyumsft/siwdynamic1/blob/master/siwdynamic1/index.md","document_id":"1e747a21-ec35-58dc-939e-39647273c351","layout":"Conceptual","pagetype":"Conceptual","canonical_url":"https://ppe.docs.microsoft.com/en-us/siwdynamic1/","toc_asset_id":"TOC.json","toc_rel":"TOC.json","is_dynamic_rendering":true,"content_type":"application/json","publish_version":"{\"opbuild.templates.docs\":\"1.29.0-alpha-013-g5f5e14d\",\"commit_id\":\"9c45ebd7912ddb65d9007070288324431532b1bd\",\"branch\":\"master\",\"opbuild.scripts\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.htmltopdftool\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.gitcontributorinformationresolver\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild_service\":\"1.29.11.0\",\"docfx.console\":\"2.14.0-alpha-1279-g5742103\",\"opbuild.resolvedependencyconsole\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.schemavalidationconsole\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.redirectionresolver\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.templates.intellisense\":\"1.29.0-alpha-013-g5f5e14d\",\"dependencies\":[{\"branch\":\"master\",\"path\":\"_themes\",\"url\":\"https://github.com/Microsoft/templates.docs.msft\",\"commit_id\":\"7d3ef1a51554bb393cfbe59160c498316c9c2dc3\",\"opbuild.templates.common\":\"1.28.2\"}]}"}
+{
+	"title": "Welcome to siwdynamic1! | Microsoft Docs",
+	"search.ms_sitename": "Docs",
+	"search.ms_docsetname": "siwdynamic1",
+	"version": 0,
+	"locale": "en-us",
+	"site_name": "Docs",
+	"search.ms_product": "MSDN",
+	"depot_name": "MSDN.siwdynamic1",
+	"author": "wuhanyumsft",
+	"updated_at": "2017-03-08 02:47 AM",
+	"gitcommit": "https://github.com/wuhanyumsft/siwdynamic1/blob/9c45ebd7912ddb65d9007070288324431532b1bd/siwdynamic1/index.md",
+	"original_content_git_url": "https://github.com/wuhanyumsft/siwdynamic1/blob/master/siwdynamic1/index.md",
+	"open_to_public_contributors": true,
+	"content_git_url": "https://github.com/wuhanyumsft/siwdynamic1/blob/master/siwdynamic1/index.md",
+	"document_id": "1e747a21-ec35-58dc-939e-39647273c351",
+	"layout": "Conceptual",
+	"pagetype": "Conceptual",
+	"canonical_url": "https://ppe.docs.microsoft.com/en-us/mergedepotdynamic/index",
+	"toc_asset_id": "TOC.json",
+	"toc_rel": "TOC.json",
+	"is_dynamic_rendering": true,
+	"content_type": "application/json",
+	"publish_version": "{\"opbuild.templates.docs\":\"1.29.0-alpha-013-g5f5e14d\",\"commit_id\":\"9c45ebd7912ddb65d9007070288324431532b1bd\",\"branch\":\"master\",\"opbuild.scripts\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.htmltopdftool\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.gitcontributorinformationresolver\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild_service\":\"1.29.11.0\",\"docfx.console\":\"2.14.0-alpha-1279-g5742103\",\"opbuild.resolvedependencyconsole\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.schemavalidationconsole\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.redirectionresolver\":\"1.29.0-alpha-013-g5f5e14d\",\"opbuild.templates.intellisense\":\"1.29.0-alpha-013-g5f5e14d\",\"dependencies\":[{\"branch\":\"master\",\"path\":\"_themes\",\"url\":\"https://github.com/Microsoft/templates.docs.msft\",\"commit_id\":\"7d3ef1a51554bb393cfbe59160c498316c9c2dc3\",\"opbuild.templates.common\":\"1.28.2\"}]}"
+}
