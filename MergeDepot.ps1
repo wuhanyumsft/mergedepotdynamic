@@ -14,7 +14,7 @@ $MergeDepotToolSource = "$mergeDepotToolContainerUrl/MergeDepotTool.zip"
 $MergeDepotToolDestination = "$currentFolder\.optemp\MergeDepotTool.zip"
 
 echo 'Start Download!'
-Invoke-WebRequest -Uri $MergeDepotToolSource -OutFile $MergeDepotToolDestination | Write-Host
+Invoke-WebRequest -Uri $MergeDepotToolSource -OutFile $MergeDepotToolDestination
 echo 'Download Success!'
 
 $MergeDepotToolUnzipFolder = "$currentFolder\.optemp\MergeDepotTool"
@@ -23,7 +23,7 @@ if((Test-Path "$MergeDepotToolUnzipFolder"))
     Remove-Item $MergeDepotToolUnzipFolder -Force -Recurse
 }
 
-[System.IO.Compression.ZipFile]::ExtractToDirectory($MergeDepotToolDestination, $MergeDepotToolUnzipFolder) | Write-Host
+[System.IO.Compression.ZipFile]::ExtractToDirectory($MergeDepotToolDestination, $MergeDepotToolUnzipFolder)
 echo 'Extract Success!' 
 $MergeDepotTool = "$MergeDepotToolUnzipFolder\MergeDepot.exe"
 
@@ -44,6 +44,7 @@ echo "Finish calling merge depot tool"
 echo "Start to push to git repository"
 git config --global core.safecrlf false
 git add * -A -v
-git commit -m "update" -v
+echo "Finish Git add."
+git commit -m "update" 2>&1 | Write-Host
 git push origin master 2>&1 | Write-Host
 echo "Finish pushing to git repository"
