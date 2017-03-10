@@ -45,5 +45,5 @@ echo "Start to push to git repository"
 git config --global core.safecrlf false
 git add * -A -v
 git commit -m "update" -v
-git push origin master | Write-Host
+git push origin master 2>&1 | Write-Host
 echo "Finish pushing to git repository"
